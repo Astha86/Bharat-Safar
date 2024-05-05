@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Bharat Safar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Preview](#preview)
+- [Technologies](#technologies)
+- [Usage](#usage)
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+Bharat Safar is a single-page web application that showcases various tour packages. Each package is presented as a card, displaying an image, a brief description, and a "Read More" button. Users can choose to remove a tour from the list if they are not interested. When all tours are removed, a "Refresh" button allows users to bring back the entire list.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Tour Card Display**:
+  - View multiple tour packages in a visually appealing grid format.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Detailed Information**:
+  - Click the "Read More" button to view the full tour description within the card.
 
-### `npm test`
+- **Tour Removal**:
+  - Remove tours from the list by clicking the "Not Interested" button.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Refresh Functionality**:
+  - Restore all tours to the list by clicking the "Refresh" button when no tours are left.
 
-### `npm run build`
+## Preview
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://github.com/Astha86/Bharat-Safar/blob/main/public/preview.png)
+[View Live Demo](https://bharat-safar.netlify.app/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React
+- JavaScript
+- CSS (for styling)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Tour Card Display**:
+   - Open the web application to view a grid of tour package cards.
+   - Each card displays an image, a brief description, and a "Read More" button.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. **Detailed Information**:
+   - Click the "Read More" button within a card to expand and view the full tour description.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **Tour Removal**:
+   - If you are not interested in a particular tour, click the "Not Interested" button on the card to remove it from the list.
 
-## Learn More
+4. **Refreshing Cards**:
+   - When all tours are removed, a "Refresh" button will appear.
+   - Click the "Refresh" button to bring back all the tour cards.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
